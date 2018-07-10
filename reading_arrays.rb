@@ -10,21 +10,18 @@ STUDENT_NAMES = [
 def first_student_by_index(arr)
   return arr[0]
 end
-
-studentnames= ["Adele",
-  "Beyoncé",
-  "Cardi B",
-  "Lady Gaga",
-  "Nicki Minaj",
-  "Rihanna"]
   
-  name= first_student_by_index(studentnames)
+  name= first_student_by_index(STUDENT_NAMES)
   
   puts name
 
-def fourth_student_by_index
-  
+def fourth_student_by_index(arr)
+  return arr[3]
 end
+  
+  name= fourth_student_by_index(STUDENT_NAMES)
+  
+  
 
 def last_student_by_index
   # Write a solution that returns the first student in the array student_names
